@@ -6,7 +6,7 @@ const connectDB = () => {
         useNewUrlParser: true,
         useUnifiedTopology: true,
     }).then(() => {
-        console.log("Database connected");
+        console.log("Yes, Subhadip you connected with Database.");
     }).catch((error) => {
         console.log("Error occurs", error);
     });

@@ -1,7 +1,12 @@
 import UserModel from "../models/user.js";
 import bcrypt from "bcrypt";
 import sendcookie from "../token/feature.js";
-import { now } from "mongoose";
+
+
+const browser =(req,res)=>{
+    res.send("<h1>Server is Working poperly:Welcome Subhadip</h1>");
+};
+
 
 const Register = async (req, res) => {
     const { name, email, password, createDate } = req.body;
@@ -68,4 +73,4 @@ const logout = (req, res) => {
 
 
 
-export { Register, login, userdetails, logout };
+export {browser, Register, login, userdetails, logout };
