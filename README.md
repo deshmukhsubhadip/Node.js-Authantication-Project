@@ -34,7 +34,5 @@ POST /logout - Log out the current user.
 PUT /user - Update user details.
 GET /tasks - Get all tasks for the authenticated user.
 POST /tasks - Create a new task.
-PUT /tasks/
-- Update a task by ID.
-DELETE /tasks/
-- Delete a task by ID.
+PUT /tasks/- Update a task by ID.
+DELETE /tasks/- Delete a task by ID.
